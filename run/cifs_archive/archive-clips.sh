@@ -41,8 +41,9 @@ function moveclips() {
 moveclips "$CAM_MOUNT/TeslaCam" 'saved*'
 
 # new file name pattern, firmware 2019.*
-moveclips "$CAM_MOUNT/TeslaCam/SavedClips" '*'
-moveclips "$CAM_MOUNT/TeslaCam/RecentClips" '*'
+# moveclips "$CAM_MOUNT/TeslaCam/SavedClips" '*'
+# moveclips "$CAM_MOUNT/TeslaCam/RecentClips" '*'
+moveclips "$CAM_MOUNT/TeslaCam" '*'
 
 log "Moved $NUM_FILES_MOVED file(s)."
 
